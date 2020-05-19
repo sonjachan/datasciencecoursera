@@ -1,0 +1,30 @@
+---
+title: "Seaweed"
+author: "Sonja"
+date: "5/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file
+
+You could view my github [here](github.com/sonjachan)
+
+And the [repo](https://github.com/sonjachan/datasciencecoursera) of this course
+
+I hope I could do more in the future. Like the table and plot below. It's quite difficult, but intersting.
+
+```{r cars}
+summary(cars)
+```
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
